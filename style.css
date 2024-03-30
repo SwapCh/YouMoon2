@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+Body{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.moon{
+    margin-top: 15px;
+    height: 50vh;
+    width: 300px;
+    border: 2px;
+}
+
+.moon1{
+    background-image: url("bad.jpg");
+    background-size: cover;
+}
+
+.moon2{
+    background-image: url("semi.jpg");
+    background-size: cover;
+}
+
+.moon3{
+    background-image: url("utlra.jpg");
+    background-size: cover;
+}
+
+.moon4{
+    background-image: url("you2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.btn{
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    font-size: larger;
+    background-color: black;
+    color: white;
+}
+
+.text{
+    margin-top: 10px;
+    font-size: 30px;
+}
